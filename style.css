@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+body {
+  text-align: center;
+  background-color: rgb(12, 202, 155);
+  font-family: "Roboto", "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex-container1 {
+  display: flex;
+  padding-top: 3%;
+}
+
+.flex-container2 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+}
+
+.flex-container2 div {
+  flex: 1;
+  margin: 40px;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
+}
+
+.tacos {
+  text-align: center;
+}
+
+.miso {
+  text-align: center;
+}
+
+.pizza {
+  text-align: center;
+}
+
+.flex-container3 {
+  display: flex;
+}
+
+a {
+  text-align: center;
+  flex: 1;
+  text-decoration: none;
+}
+
+.directions {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.directions p,
+li {
+  text-align: left;
+}
+
+.button {
+  background-color: #dee4de;
+  border: 5px;
+  color: rgb(24, 22, 22);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
